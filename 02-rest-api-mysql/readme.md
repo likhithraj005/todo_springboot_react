@@ -35,7 +35,7 @@ POST http://localhost:5000/jpa/users
 
 ```json
 {
-    "name": "Ranga",
+    "name": "Raj",
     "birthDate": "2000-07-19"
 }
 ```
@@ -46,7 +46,7 @@ GET http://localhost:5000/jpa/users
 [
     {
         "id": 1,
-        "name": "Ranga",
+        "name": "Raj",
         "birthDate": "2000-07-19"
     }
 ]
@@ -57,7 +57,7 @@ GET http://localhost:5000/jpa/users/1
 ```json
 {
     "id": 1,
-    "name": "Ranga",
+    "name": "Raj",
     "birthDate": "2000-07-19"
 }
 ```
