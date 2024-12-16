@@ -29,30 +29,30 @@ A simple full-stack todo application built using **React** for the frontend and 
   - Frontend deployed on Netlify
   - Database deployed on Neon
 
+## Clone the Repository
+## Clone the Repository
 
-### Clone the Repository
+  ```bash
+  git clone https://github.com/likhithraj005/todo_springboot_react.git
 
-```bash
-git clone https://github.com/likhithraj005/todo_springboot_react.git
-
-### Installation
+## Installation
 
 **Frontend Setup**
 Navigate to the 04-frontend-react/todo-app directory:
 
-```bash
-cd 04-frontend-react/todo-app
+  ```bash
+  cd 04-frontend-react/todo-app
 
 
 Install the dependencies:
 
-```bash
-npm install
+  ```bash
+  npm install
 
 Run the React application locally:
 
-```bash
-npm start
+  ```bash
+  npm start
 
 The frontend will be available at: https://todo-spring.netlify.app
 
@@ -60,17 +60,17 @@ The frontend will be available at: https://todo-spring.netlify.app
 
 Navigate to the 03-rest-api-full-stack-h2 directory:
 
-```bash
-cd 03-rest-api-full-stack-h2
+  ```bash
+  cd 03-rest-api-full-stack-h2
 
 Set up the PostgreSQL database and configure the connection settings in the application.properties file (found in src/main/resources).
 
 Run the Spring Boot application:
 
-```bash
-./mvnw spring-boot:run
+  ```bash
+  ./mvnw spring-boot:run
 
-Building the Docker Image
+**Building the Docker Image**
 In the root of your project, create a Dockerfile for the backend (03-rest-api-full-stack-h2)
 
 The backend will be available at: https://todo-deployment-latest.onrender.com
