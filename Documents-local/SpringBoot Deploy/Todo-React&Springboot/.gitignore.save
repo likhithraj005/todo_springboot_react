@@ -1,0 +1,4 @@
+# Ignore .env files in both React and Spring Boot folders
+03-rest-api-full-stack-h2/.env
+04-frontend-react/.env
+
