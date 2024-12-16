@@ -1,53 +1,30 @@
-# React JS Todo List
+# Todo Application 
 
-A simple and interactive Todo List web application built using React JS and Vite.
-
-## Demo
-
-You can view the live demo of the app here: [React JS Todo List](https://reactjs-thingstodos.netlify.app):https://reactjs-thingstodos.netlify.app
+A simple full-stack todo application built using **React** for the frontend and **Spring Boot** for the backend. This project is deployed on **Render** and integrates with a **PostgreSQL database** hosted on **Neon**.
 
 ## Features
 
-- Add new tasks to your todo list
-- Edit the tasks from the list
-- Delete tasks from the list
+- **User Authentication**: Secure login and registration system using JWT tokens.
+- **CRUD Operations**: Create, Read, Update, and Delete todos.
+- **Database Integration**: PostgreSQL database hosted on Neon for storing todos.
 
 ## Technologies Used
 
-- React JS
-- Vite
-- Tailwind CSS
+- **Frontend**: 
+  - React.js
 
-## Setup
+- **Backend**: 
+  - Spring Boot
+  - Spring Security JWT Authentication
+  - Spring Data JPA
 
-To run this project locally, follow the steps below:
+- **Database**: 
+  - PostgreSQL
 
-1. **Clone the repository:**
+- **Containerization**: 
+  - Docker (for building and deploying the app)
 
-   ```bash
-   git clone https://github.com/likhithraj005/reactjs-todolist.git
-
-2. **Navigate to the project folder:**
-
-   ```bash
-   cd reactjs-todolist
-
-3. **Install dependencies:**
-
-   ```bash
-   npm install
-
-4. **Run the project:**
-
-   ```bash
-   npm run dev
-
-## Build and Deploy
-
-1. **To create a production build, run:**
-
-   ```bash
-   npm run build
-
-
-
+- **Deployment**: 
+  - Backend deployed on Render: https://todo-deployment-latest.onrender.com
+  - Frontend deployed on Netlify: https://todo-spring.netlify.app
+  - Database deployed on Neon
