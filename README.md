@@ -28,3 +28,9 @@ A simple full-stack todo application built using **React** for the frontend and 
   - Backend deployed on Render: https://todo-deployment-latest.onrender.com
   - Frontend deployed on Netlify: https://todo-spring.netlify.app
   - Database deployed on Neon
+
+## Note
+
+Please note that it may take 2-5 minutes for the REST APIs to fully render and fetch data. If you do not see the expected output, kindly reload the page after a few minutes to get the desired result.
+
+Thank you for your patience!
